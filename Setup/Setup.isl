@@ -340,9 +340,9 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>Activate.exe</td><td>{B177010B-6C57-49F7-8E06-CCD410FCB38F}</td><td>INSTALLDIR</td><td>2</td><td/><td>activate.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Activate.exe</td><td>{72996D60-B1AB-45CE-A812-50D8D12AA906}</td><td>INSTALLDIR</td><td>2</td><td/><td>activate.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{9A5D3DA8-2D9F-4B57-8611-5D701ADB6FEC}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>QRCoder.dll</td><td>{DC60CAC7-2F9B-4AFB-B5B5-537319889DC4}</td><td>INSTALLDIR</td><td>2</td><td/><td>qrcoder.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>QRCoder.dll</td><td>{14542A86-18E0-4A29-8355-93AF48EFEE28}</td><td>INSTALLDIR</td><td>2</td><td/><td>qrcoder.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -2029,9 +2029,9 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>Activate.exe</td><td/><td/><td>_8A82D020_5578_4404_B517_CDB497FA9120_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Activate.exe</td><td/><td/><td>_2F0699EB_9829_4BB1_9749_846A64FEAB5E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_FA579CBC_4786_443F_8845_D67660664A38_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>QRCoder.dll</td><td/><td/><td>_BEF359B7_92D1_43BC_96F6_E0541ACCD63D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>QRCoder.dll</td><td/><td/><td>_FAD7D955_F693_4918_8D38_A3A521D3785B_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2310,6 +2310,7 @@
 		<col def="S255">Value</col>
 		<col def="S255">TestValue</col>
 		<col def="i4">Type</col>
+		<row><td>Activate</td><td>Activate\Activate.csproj</td><td/><td>2</td></row>
 		<row><td>CommonFilesFolder</td><td/><td/><td>1</td></row>
 		<row><td>ISPROJECTDIR</td><td/><td/><td>1</td></row>
 		<row><td>ISProductFolder</td><td/><td/><td>1</td></row>
@@ -2425,7 +2426,7 @@
 		<row><td>DVD-18</td><td>Express</td><td>0</td><td>http://</td><td>0</td><td>install</td><td>install</td><td>[LocalAppDataFolder]Downloaded Installations</td><td>0</td><td>http://www.installengine.com/Msiengine20</td><td>http://www.installengine.com/Msiengine20</td><td>0</td><td>http://www.installengine.com/cert05/isengine</td><td>0</td><td/><td/><td/><td>3</td><td>http://www.installengine.com/cert05/dotnetfx</td><td>0</td><td>1033</td><td/><td/><td/><td/><td/><td>3</td><td/><td>http://www.installengine.com/Msiengine30</td><td/></row>
 		<row><td>DVD-5</td><td>Express</td><td>0</td><td>http://</td><td>0</td><td>install</td><td>install</td><td>[LocalAppDataFolder]Downloaded Installations</td><td>0</td><td>http://www.installengine.com/Msiengine20</td><td>http://www.installengine.com/Msiengine20</td><td>0</td><td>http://www.installengine.com/cert05/isengine</td><td>0</td><td/><td/><td/><td>3</td><td>http://www.installengine.com/cert05/dotnetfx</td><td>0</td><td>1033</td><td/><td/><td/><td/><td/><td>3</td><td/><td>http://www.installengine.com/Msiengine30</td><td/></row>
 		<row><td>DVD-9</td><td>Express</td><td>0</td><td>http://</td><td>0</td><td>install</td><td>install</td><td>[LocalAppDataFolder]Downloaded Installations</td><td>0</td><td>http://www.installengine.com/Msiengine20</td><td>http://www.installengine.com/Msiengine20</td><td>0</td><td>http://www.installengine.com/cert05/isengine</td><td>0</td><td/><td/><td/><td>3</td><td>http://www.installengine.com/cert05/dotnetfx</td><td>0</td><td>1033</td><td/><td/><td/><td/><td/><td>3</td><td/><td>http://www.installengine.com/Msiengine30</td><td/></row>
-		<row><td>SingleImage</td><td>Express</td><td>0</td><td>http://</td><td>0</td><td>install</td><td>install</td><td>[LocalAppDataFolder]Downloaded Installations</td><td>1</td><td>http://www.installengine.com/Msiengine20</td><td>http://www.installengine.com/Msiengine20</td><td>0</td><td>http://www.installengine.com/cert05/isengine</td><td>0</td><td/><td/><td/><td>3</td><td>http://www.installengine.com/cert05/dotnetfx</td><td>0</td><td>1033</td><td/><td/><td/><td/><td/><td>3</td><td/><td>http://www.installengine.com/Msiengine30</td><td/></row>
+		<row><td>SingleImage</td><td>Express</td><td>0</td><td>http://</td><td>0</td><td>install</td><td>install</td><td>[LocalAppDataFolder]Downloaded Installations</td><td>1</td><td>http://www.installengine.com/Msiengine20</td><td>http://www.installengine.com/Msiengine20</td><td>0</td><td>http://www.installengine.com/cert05/isengine</td><td>0</td><td/><td/><td/><td>3</td><td>http://www.installengine.com/cert05/dotnetfx</td><td>0</td><td>1033</td><td/><td/><td/><td/><td>1024</td><td>3</td><td/><td>http://www.installengine.com/Msiengine30</td><td/></row>
 		<row><td>WebDeployment</td><td>Express</td><td>0</td><td>http://</td><td>0</td><td>setup</td><td>Default</td><td>[LocalAppDataFolder]Downloaded Installations</td><td>2</td><td>http://www.Installengine.com/Msiengine20</td><td>http://www.Installengine.com/Msiengine20</td><td>0</td><td>http://www.installengine.com/cert05/isengine</td><td>0</td><td/><td/><td/><td>3</td><td>http://www.installengine.com/cert05/dotnetfx</td><td>0</td><td>1033</td><td/><td/><td/><td/><td/><td>3</td><td/><td>http://www.installengine.com/Msiengine30</td><td/></row>
 	</table>
 
@@ -2621,7 +2622,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>2052</td><td>SynoBio</td><td>0</td><td/><td>1755849966</td></row>
+		<row><td>COMPANY_NAME</td><td>2052</td><td>SynoBio</td><td>0</td><td/><td>1755885615</td></row>
 		<row><td>DN_AlwaysInstall</td><td>2052</td><td>始终安装</td><td>0</td><td/><td>1755863566</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>2052</td><td>系统颜色设置不足以运行 [ProductName]。</td><td>0</td><td/><td>1755863566</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>2052</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>1755882670</td></row>
@@ -3437,6 +3438,14 @@
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>2052</td><td>LAUNCH~1.EXE|Launch Activate.exe</td><td>0</td><td/><td>1755863566</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td/><td>0</td><td/><td>1755884110</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>2052</td><td>LAUNCH~1.EXE|Launch Activate.exe</td><td>0</td><td/><td>1755884110</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td/><td>0</td><td/><td>1755844270</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>2052</td><td>LAUNCH~1.EXE|Launch Activate.exe</td><td>0</td><td/><td>1755844270</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td/><td>0</td><td/><td>1755844270</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>2052</td><td>LAUNCH~1.EXE|Launch Activate.vshost.exe</td><td>0</td><td/><td>1755844270</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>1033</td><td/><td>0</td><td/><td>1755883182</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>2052</td><td>Activate.exe</td><td>0</td><td/><td>1755846350</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>1033</td><td/><td>0</td><td/><td>1755883182</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>2052</td><td>LAUNCH~1.EXE|Launch Activate.vshost.exe</td><td>0</td><td/><td>1755883182</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>2052</td><td>从以下服务器列表中选择要连接的数据库服务器。</td><td>0</td><td/><td>1755863566</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>2052</td><td>从以下的编录名称列表中，选择您希望将其作为目标的数据库编录。</td><td>0</td><td/><td>1755863566</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>2052</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>1755863566</td></row>
@@ -3725,10 +3734,12 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>2052</td><td>对于运行 [ProductName] 处理器不足。</td><td>0</td><td/><td>1755863566</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>2052</td><td>对于运行 [ProductName] 内存量不足。</td><td>0</td><td/><td>1755863566</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>2052</td><td>对于运行 [ProductName] 屏幕分辨率不足。</td><td>0</td><td/><td>1755863566</td></row>
-		<row><td>ID_STRING1</td><td>2052</td><td>http://www.SynoBio.com</td><td>0</td><td/><td>1755849966</td></row>
-		<row><td>ID_STRING2</td><td>2052</td><td>SynoBio</td><td>0</td><td/><td>1755849966</td></row>
+		<row><td>ID_STRING1</td><td>2052</td><td>http://www.SynoBio.com</td><td>0</td><td/><td>1755857295</td></row>
+		<row><td>ID_STRING2</td><td>2052</td><td>SynoBio</td><td>0</td><td/><td>1755885615</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>LAUNCH~1.EXE|Launch Activate.exe</td><td>0</td><td/><td>1755894350</td></row>
 		<row><td>ID_STRING3</td><td>2052</td><td>LAUNCH~1.EXE|Launch Activate.exe</td><td>0</td><td/><td>1755894350</td></row>
+		<row><td>ID_STRING4</td><td>1033</td><td>Activate.exe</td><td>0</td><td/><td>1755850446</td></row>
+		<row><td>ID_STRING4</td><td>2052</td><td>Activate.exe</td><td>0</td><td/><td>1755850446</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>2052</td><td>系统将不安装此功能。</td><td>0</td><td/><td>1755863566</td></row>
 	</table>
 
@@ -3843,8 +3854,13 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>Activate.exe1_72926E571B88478DA4A82A3985275258.exe</td><td/><td>D:\Workspace\Activate\Activate\bin\Release\Activate.exe</td><td>0</td></row>
 		<row><td>Activate.exe1_8CCCE6C55A6F46EBA45C386177B1A150.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>Activate.exe_65FEF59A8BA04E13875D8EB8454AEC70.exe</td><td/><td>D:\Workspace\Activate\Activate\bin\Release\Activate.exe</td><td>0</td></row>
 		<row><td>Activate.exe_B47E1E9CD9D6479D8573065EA9C8FA17.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>Activate.exe_C569806BAE41447491602C9825059AA6.exe</td><td/><td>D:\Workspace\Activate\Activate\bin\Release\Activate.exe</td><td>0</td></row>
+		<row><td>Activate.vshost.ex_33271B1877C7414FB5A2216407E4B22D.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>Activate.vshost.ex_CB2C817A30FF423EA4DCAA4E64FCDC5D.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4350,9 +4366,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>ProductCode</td><td>{0E308D2B-DF8B-4755-BEE9-9F4B98009D33}</td><td/></row>
+		<row><td>ProductCode</td><td>{63211BE7-AA29-4FD1-B80E-89FE6CE866D4}</td><td/></row>
 		<row><td>ProductName</td><td>Activate</td><td/></row>
-		<row><td>ProductVersion</td><td>1.00.0001</td><td/></row>
+		<row><td>ProductVersion</td><td>1.0.0.1</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4428,11 +4444,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
-		<row><td>Activate.exe</td><td>Activate.exe</td><td/><td>activate1</td><td>2</td></row>
-		<row><td>FileKey1</td><td>Activate.exe</td><td/><td>synobio</td><td>2</td></row>
-		<row><td>FileKey2</td><td>Activate.exe</td><td/><td>activate</td><td>2</td></row>
-		<row><td>FileKey3</td><td>Activate.exe</td><td/><td>company_name</td><td>2</td></row>
-		<row><td>FileKey4</td><td>Activate.exe</td><td/><td>activate1</td><td>2</td></row>
+		<row><td>Activate.exe</td><td>Activate.exe</td><td/><td>activate</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4518,8 +4530,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>Activate.exe</td><td>activate1</td><td>##IDS_SHORTCUT_DISPLAY_NAME2##</td><td>Activate.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>Activate.exe_B47E1E9CD9D6479D8573065EA9C8FA17.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>Activate.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME2##</td><td>Activate.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>Activate.exe1_8CCCE6C55A6F46EBA45C386177B1A150.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>Activate.exe</td><td>activate</td><td>##IDS_SHORTCUT_DISPLAY_NAME5##</td><td>Activate.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>Activate.exe_65FEF59A8BA04E13875D8EB8454AEC70.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>Activate.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME5##</td><td>Activate.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>Activate.exe1_72926E571B88478DA4A82A3985275258.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
@@ -4546,7 +4558,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ArialBlueStrike10</td><td>Arial</td><td>10</td><td>16711680</td><td>8</td></row>
 		<row><td>CourierNew8</td><td>Courier New</td><td>8</td><td/><td/></row>
 		<row><td>CourierNew9</td><td>Courier New</td><td>9</td><td/><td/></row>
-		<row><td>ExpressDefault</td><td>宋体</td><td>7</td><td>0</td><td>0</td></row>
+		<row><td>ExpressDefault</td><td>宋体</td><td>9</td><td>0</td><td>0</td></row>
 		<row><td>MSGothic9</td><td>MS Gothic</td><td>9</td><td/><td/></row>
 		<row><td>MSSGreySerif8</td><td>MS Sans Serif</td><td>8</td><td>8421504</td><td/></row>
 		<row><td>MSSWhiteSerif8</td><td>Tahoma</td><td>8</td><td>16777215</td><td/></row>
